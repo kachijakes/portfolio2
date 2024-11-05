@@ -1,0 +1,158 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    
+}
+
+h2{
+    text-align: center;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    padding: 2rem;
+    background-color: #333;
+    color: #fff;
+}
+
+.header-title {
+    font-size: 2.5rem;
+}
+
+.header-subtitle {
+    font-size: 1.2rem;
+    color: #aaa;
+    margin-top: 0.5rem;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 1rem;
+}
+
+.nav-link {
+    margin: 0 1rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+/* Section Styling */
+section {
+    padding: 2rem;
+    margin: 1rem 0;
+}
+
+/* About Section */
+.about {
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.skills-list {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    list-style: none;
+    padding: 1rem;
+}
+
+/* Portfolio Section */
+.portfolio-gallery {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.portfolio-item {
+    width: 200px;
+    text-align: center;
+}
+
+.portfolio-img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Testimonials Section */
+.testimonials {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+}
+
+blockquote {
+    font-style: italic;
+    margin: 1rem auto;
+    max-width: 600px;
+}
+
+/* Contact Section */
+.contact {
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.contact-link {
+    display: block;
+    margin: 1rem 0;
+    color: #333;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+.contact-link:hover {
+    color: #007acc;
+}
+
+.social-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #333;
+}
+
+.social-links a:hover {
+    color: #007acc;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .header-title {
+        font-size: 1.8rem;
+    }
+
+    .portfolio-item {
+        width: 100%;
+    }
+}
